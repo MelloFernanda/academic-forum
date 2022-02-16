@@ -1,8 +1,12 @@
 package com.learning.forum.modelo;
 
 import lombok.Data;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
+
+import javax.persistence.Entity;
 
 @Data
+@Entity
 public class Curso {
 
     private Long id;
